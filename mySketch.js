@@ -1,5 +1,5 @@
 
-var scl = 10;
+var scl = 5;
 var f = 100;
 var num = 3;
 
