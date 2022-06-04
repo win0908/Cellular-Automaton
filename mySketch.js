@@ -22,14 +22,12 @@ function setup() {
 		G[i] = round(random(num));
 		i++;
 	}
-	
-	
+		
 	//random rule set
 	var n = num+1;
 	for(var j = 0; j<(n*n*n); j++){
 		SET[j] = round(random(num));
 	}
-	
 	
 }
 
@@ -44,7 +42,6 @@ function draw() {
 	for(var y = f; y<=height-f; y+=scl){
 		drawG(y);
 	}
-	
 	
 	
 	t+=1;
@@ -72,27 +69,22 @@ function drawG( y){
 		
 		noStroke();
 		fill(0);
-		
 		if(G[i] == 0){
 			//ellipse( x, y, scl/1.5);	
 			rect( x, y, scl/2, scl);	
 		}
-		
 		if(G[i] == 1){
 			rect( x, y, scl, scl/2);	
 		}
-		
 		if(G[i] == 2){
 			noFill();
 			stroke(0);
 			strokeWeight(3);
 			//ellipse( x, y, scl);	
 		}
-		
 		if(G[i] == 3){
 			rect( x, y, scl);	
 		}
-		
 		
 		i+=1;
 	}
