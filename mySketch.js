@@ -11,7 +11,7 @@ var SET = [];
 var t = 0;
 
 function setup() {
-	createCanvas( windowWidth, windowHeight);
+	createCanvas( 200, windowHeight);
 	background(255);
 	
 	frameRate(10);
