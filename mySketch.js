@@ -14,7 +14,7 @@ function setup() {
 	createCanvas( windowWidth, windowHeight);
 	background(255);
 	
-	frameRate(10);
+	frameRate(5);
 	
 	//random 1st line
 	var i = 0;
