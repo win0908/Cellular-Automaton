@@ -1,6 +1,6 @@
 
 var scl = 10;
-var f = 50;
+var f = 100;
 var num = 3;
 
 var G = [];
