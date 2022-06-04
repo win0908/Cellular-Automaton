@@ -14,7 +14,7 @@ function setup() {
 	createCanvas( windowWidth, windowHeight);
 	background(255);
 	
-	frameRate(15);
+	frameRate(25);
 	
 	//random 1st line
 	var i = 0;
@@ -45,7 +45,7 @@ function draw() {
 	
 	
 	t+=1;
-	if(t%25 == 0){
+	if(t%50 == 0){
 		var i = 0;
 		for(var x = f; x<=width-f; x+=scl){
 			G[i] = round(random(num));
